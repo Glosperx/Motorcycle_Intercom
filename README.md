@@ -10,6 +10,9 @@ Beyond communication, the device acts as a safety hub:
 * **NFC Medical ID:** A passive NFC tag stores vital data (blood type, allergies, ICE contacts) that can be scanned by first responders with any smartphone.
 * **Dual Connectivity:** Supports ESP-NOW for group mesh and standard Bluetooth for phone pairing.
 
+
+![Circuit Image](circuit1.png)
+
 ## Bill Of Materials (BOM)
 - 2x ESP32
 - 2x MPU6050 (Accelerometer + Gyroscope for Crash Detection)
