@@ -8,10 +8,12 @@ Beyond communication, the device acts as a safety hub:
 * **Crash Detection:** Uses an IMU to detect high-G impacts or unusual tilt angles.
 * **Emergency SOS:** Automatically broadcasts GPS coordinates to the group mesh if a crash is detected.
 * **NFC Medical ID:** A passive NFC tag stores vital data (blood type, allergies, ICE contacts) that can be scanned by first responders with any smartphone.
-* **Dual Connectivity:** Supports ESP-NOW for group mesh and standard Bluetooth for phone pairing.
 
 
 ![Circuit Image](circuit1.png)
+
+![Final Image 1](1.png)
+![Final Image 2](2.png)
 
 ## Video
 [See the circuit in action on YouTube](https://youtu.be/ce2_XN7YsI8)  
@@ -20,9 +22,11 @@ Beyond communication, the device acts as a safety hub:
 - 2x ESP32
 - 2x MPU6050 (Accelerometer + Gyroscope for Crash Detection)
 - 2x NEO-6M GPS Module (Real-time Location Tracking)
-- 2x NFC Tag NTAG213/215 (Passive Medical Data Storage)
-- 2x I2S Microphone & Speaker (Audio Input/Output)
-- 2x LiPo Battery
+- 2x NFC Tag NTAG215 (Passive Medical Data Storage)
+- 2x INMP441 I2S Microphone (Audio Input)
+- 2x MAX98357A I2S Amplifier
+- 4x AA Batteries
+- 2x 3D Printed Enclosure
 
 ## Tutorial source
 - I don't plan to follow any tutorials. This is an original architectural design integrating decentralized networking with sensor fusion logic.
