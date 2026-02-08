@@ -13,6 +13,9 @@ Beyond communication, the device acts as a safety hub:
 
 ![Circuit Image](circuit1.png)
 
+## Video
+[See the circuit in action on YouTube](https://youtu.be/ce2_XN7YsI8)  
+
 ## Bill Of Materials (BOM)
 - 2x ESP32
 - 2x MPU6050 (Accelerometer + Gyroscope for Crash Detection)
