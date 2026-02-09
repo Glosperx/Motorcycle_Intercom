@@ -49,3 +49,21 @@ The minimum demo (MVP) will demonstrate the **successful connectivity between th
 
 ### Q5 - Why is this not just a tutorial?
 This project is an **original integration** of multiple complex systems: decentralized networking (Mesh), sensor fusion for safety (IMU/GPS), and emergency medical accessibility (NFC).
+
+
+## Pin Map
+The following table outlines the wiring configuration based on the 38-pin ESP32 DevKit:
+
+| Component | Function | ESP32 GPIO Pins | Physical Pins |
+| :--- | :--- | :--- | :--- |
+| **I2S Audio** | BCLK / SCK | 14 | 12 |
+| | WS / LRC | 27 | 11 |
+| | Mic Data (SD) | 32 | 7 |
+| | Amp Data (DIN) | 33 | 8 |
+| **MPU6050** | I2C SDA | 21 | 33 |
+| | I2C SCL | 22 | 36 |
+| **Power** | 5V Input | VIN | 19 |
+| | Common Ground | GND | 38 |
+
+
+![Pinout](esp_pinout.png)
