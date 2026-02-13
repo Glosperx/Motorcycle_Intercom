@@ -10,12 +10,16 @@ Beyond communication, the device acts as a safety hub:
 * **NFC Medical ID:** A passive NFC tag stores vital data (blood type, allergies, ICE contacts) that can be scanned by first responders with any smartphone.
 
 
+### Circuit Image
 ![Circuit Image](circuit1.png)
 
+### 3D Printed case
 ![Final Image 1](1.png)
 ![Final Image 2](2.png)
 
+### Second intercom
 ![Intercom 2](blue1.png)
+### Final 
 ![3D printed final](total2.png)
 
 
