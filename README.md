@@ -11,16 +11,16 @@ Beyond communication, the device acts as a safety hub:
 
 
 ### Circuit Image
-![Circuit Image](circuit1.png)
+![Circuit Image](assets/circuit1.png)
 
 ### 3D Printed case
-![Final Image 1](1.png)
-![Final Image 2](2.png)
+![Final Image 1](assets/1.png)
+![Final Image 2](assets/2.png)
 
 ### Second intercom
-![Intercom 2](blue1.png)
+![Intercom 2](assets/blue1.png)
 ### Final 
-![3D printed final](total2.png)
+![3D printed final](assets/total2.png)
 
 
 ## Video
@@ -78,4 +78,4 @@ The following table outlines the wiring configuration based on the 38-pin ESP32 
 | | Common Ground | GND | 38 |
 
 
-![Pinout](esp_pinout.png)
+![Pinout](assets/esp_pinout.png)
