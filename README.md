@@ -34,7 +34,7 @@ Beyond communication, the device acts as a safety hub:
 | 2 | **MAX98357A I2S Amp** | Amplifier | [Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/max98357a-max98357b.pdf) |
 | 2 | **INMP441 Microphone** |Digital Microphone I2S| [Datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/INMP441.pdf) |
 | 2 | **MPU-6050 (IMU)** | 6-axis Gyro + Accelerometer for Crash Detection | [Datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf) |
-| 2 | **1W Speakers** | 8 Ohm; Helmet compatible | - |
+| 2 | **Speakers** | 1W and 40 mm diameter | - |
 | 2 | **NFC Tag NTAG215** | Passive Medical ID storage | - |
 | 4 | **AA Batteries** | 1.5V Power Source | - |
 | 2 | **3D Printed Case** | Custom design; Material: PLA | - |
