@@ -15,6 +15,10 @@ Beyond communication, the device acts as a safety hub:
 ![Final Image 1](1.png)
 ![Final Image 2](2.png)
 
+![Intercom 2](blue1.png)
+![3D printed final](total2.png)
+
+
 ## Video
 [See the circuit in action on YouTube](https://youtu.be/ce2_XN7YsI8)  
 
