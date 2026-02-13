@@ -26,15 +26,19 @@ Beyond communication, the device acts as a safety hub:
 ## Video
 [See the circuit in action on YouTube](https://youtu.be/ce2_XN7YsI8)  
 
-## Bill Of Materials (BOM)
-- 2x ESP32
-- 2x MPU6050 (Accelerometer + Gyroscope for Crash Detection)
-- 2x NEO-6M GPS Module (Real-time Location Tracking)
-- 2x NFC Tag NTAG215 (Passive Medical Data Storage)
-- 2x INMP441 I2S Microphone (Audio Input)
-- 2x MAX98357A I2S Amplifier
-- 4x AA Batteries
-- 2x 3D Printed Enclosure
+### Bill of Materials (BOM) - Motorcycle Intercom (2 Units)
+
+| Amount | Part Type | Properties | Datasheet |
+| :--- | :--- | :--- | :--- |
+| 2 | **ESP32 DevKit V1** | Dual-mode WiFi + BT| [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf) |
+| 2 | **MAX98357A I2S Amp** | Amplifier | [Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/max98357a-max98357b.pdf) |
+| 2 | **INMP441 Microphone** |Digital Microphone I2S| [Datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/INMP441.pdf) |
+| 2 | **MPU-6050 (IMU)** | 6-axis Gyro + Accelerometer for Crash Detection | [Datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf) |
+| 2 | **1W Speakers** | 8 Ohm; Helmet compatible | - |
+| 2 | **NFC Tag NTAG215** | Passive Medical ID storage | - |
+| 4 | **AA Batteries** | 1.5V Power Source | - |
+| 2 | **3D Printed Case** | Custom design; Material: PLA | - |
+
 
 ## Tutorial source
 - I don't plan to follow any tutorials. This is an original architectural design integrating decentralized networking with sensor fusion logic.
